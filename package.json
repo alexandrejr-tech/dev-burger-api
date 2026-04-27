@@ -1,0 +1,19 @@
+{
+  "name": "dev-burguer-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.13"
+  }
+}
