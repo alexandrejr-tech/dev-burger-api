@@ -11,7 +11,7 @@ const calculateOrderAmount = (items) => {
         return current.price * current.quantity + acc
     }, 0)
 
-    return total
+    return total;
 }
 
 
